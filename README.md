@@ -1,1 +1,1 @@
-Our first project as Team2!
+Our first project as Team2.
