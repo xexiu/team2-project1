@@ -1,0 +1,45 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.newDiv {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    float: left;
+    list-style: none;
+    padding: 7px 13px 7px 13px;
+    border: 1px solid #E4E4E4;
+    border-radius: 3px;
+    background: #F2F2F2;
+    font-weight: bold;
+    margin: 0 10px;
+    color: #444444;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.newDiv:hover{
+    background: linear-gradient(#F3F3F3,#F6F6F6,#F3F3F3);
+    border: 1px solid #DDDDDD;
+    border-bottom-width: 2px;
+    outline-width: thin;
+    cursor: default;
+    color: #222222;
+}
+
+.newDiv:active{
+    background: linear-gradient(#F6F6F6,#F9F9F9,#F6F6F6);
+    border: 1px solid #CECECE;
+}
+
+.test {
+    height: 21%;
+    width: 21%;
+    margin: 2%;
+    float: left;
+}
