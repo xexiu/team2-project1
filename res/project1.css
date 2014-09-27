@@ -4,7 +4,7 @@ html, body {
     margin: 0;
 }
 
-.newDiv {
+button { /* Changed class to button */
     position: fixed;
     bottom: 10px;
     right: 10px;
@@ -21,14 +21,18 @@ html, body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    cursor: pointer; /* Made the default cursor, be a pointer */
+}
+button:focus { /* Remove blue border from css custom-styled button */
+   outline:0; 
 }
 
-.newDiv:hover{
+button:hover{
     background: linear-gradient(#F3F3F3,#F6F6F6,#F3F3F3);
     border: 1px solid #DDDDDD;
     border-bottom-width: 2px;
     outline-width: thin;
-    cursor: default;
+    cursor: pointer; /* Changed cursor from default to pointer. Looks more fancy :P; */
     color: #222222;
 }
 
@@ -38,8 +42,9 @@ html, body {
 }
 
 .test {
-    height: 21%;
-    width: 21%;
+    height: 20%; /*Streched from 21 to 20% to fill up more then 3 boxes on the page.*/
+    width: 20%;
     margin: 2%;
     float: left;
+    border: 1px solid #ccc; /*Added border to see wich boxes are created (for boxes with white background).*/
 }
